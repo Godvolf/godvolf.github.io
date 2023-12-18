@@ -1,1 +1,1 @@
-export const pairs = [{"from":"Adam","to":"Agata"},{"from":"Ania","to":"Paweł"},{"from":"Kuba","to":"Weronika"},{"from":"Weronika","to":"Kuba"},{"from":"Paweł","to":"Ania"},{"from":"Agata","to":"Adam"}]
+export const pairs = [{"from":"Adam","to":"Paweł"},{"from":"Ania","to":"Agata"},{"from":"Kuba","to":"Adam"},{"from":"Weronika","to":"Ania"},{"from":"Paweł","to":"Weronika"},{"from":"Agata","to":"Kuba"}]
