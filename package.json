@@ -1,6 +1,6 @@
 {
   "name": "secret_santa",
-  "homepage": "https://godvolf.github.io/godvolf.github.io",
+  "homepage": "https://godvolf.github.io/secret_santa",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
