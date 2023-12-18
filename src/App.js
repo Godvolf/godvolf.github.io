@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <label htmlFor="imiona">Wybierz twoje imię a ujawnię ci komu prezent masz kupić</label>
+        <label htmlFor="imiona">Podaj twoje imię a ujawnię ci komu prezent masz kupić</label>
         <select style={{ fontWeight: 500, width: '150px', height: '50px', backgroundColor: '#282c34', margin: '10px', color: 'white'}} onChange={(e) => {
           setSelectedActor(e.target.value)
         }} name="imiona" id="imiona">
@@ -25,6 +25,44 @@ function App() {
         )}
       </header>
 
+      <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake">
+          <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">❅</div>
+        </div>
+      </div>
     </div>
   );
 }
