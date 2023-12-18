@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/godvolf.github.io/static/css/main.f855e6bc.css",
-    "main.js": "/godvolf.github.io/static/js/main.6d61dd5a.js",
-    "static/js/787.c9f4de24.chunk.js": "/godvolf.github.io/static/js/787.c9f4de24.chunk.js",
-    "index.html": "/godvolf.github.io/index.html",
-    "main.f855e6bc.css.map": "/godvolf.github.io/static/css/main.f855e6bc.css.map",
-    "main.6d61dd5a.js.map": "/godvolf.github.io/static/js/main.6d61dd5a.js.map",
-    "787.c9f4de24.chunk.js.map": "/godvolf.github.io/static/js/787.c9f4de24.chunk.js.map"
+    "main.css": "/secret_santa/static/css/main.f855e6bc.css",
+    "main.js": "/secret_santa/static/js/main.08774d15.js",
+    "static/js/787.c9f4de24.chunk.js": "/secret_santa/static/js/787.c9f4de24.chunk.js",
+    "index.html": "/secret_santa/index.html",
+    "main.f855e6bc.css.map": "/secret_santa/static/css/main.f855e6bc.css.map",
+    "main.08774d15.js.map": "/secret_santa/static/js/main.08774d15.js.map",
+    "787.c9f4de24.chunk.js.map": "/secret_santa/static/js/787.c9f4de24.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.6d61dd5a.js"
+    "static/js/main.08774d15.js"
   ]
 }
