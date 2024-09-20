@@ -42,5 +42,20 @@ jobs:
             uses: actions/download-artifact@v3
             with:
                 name: build
-        -   name: Test download
-            run: ls -R
+        -   name: Create Github release
+            id: create-new-release
+            uses: actions/create-release@v1
+            env:
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            with: 
+                tag_name: ${{ github.run_number }}
+                release_name: ${{ github.run_number }}
+        -   name: Upload release
+            uses: actions/upload-release-asset@v1
+            env: 
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            with:
+                upload_url: ${{ steps.create-new-release.outputs.upload_url }}
+                asset_path: ./build
+                asset_name: site-v${{ github.run_number }}.zip
+                asset_content_type: application/zip
