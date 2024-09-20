@@ -29,7 +29,7 @@ jobs:
         -   name: Build solution
             run: npm run build
         -   name: Upload solution
-            uses: actions/upload-artifact@v4.3.1
+            uses: actions/upload-artifact@v3
             with:
                 name: build
                 path: build
